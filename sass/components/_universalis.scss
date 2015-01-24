@@ -24,7 +24,6 @@ html {
 //BODY
 body {
     background-color: $bgcolor;
-    height: 100%;
 }
 
 
@@ -46,6 +45,9 @@ body {
    }
    @include breakpoint($bigtop){
        width: 1200px;
+   }
+   @include breakpoint($widescreen){
+       width: 1300px;
    }
    
 }
